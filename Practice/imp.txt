@@ -1,0 +1,13 @@
+🧠 Important concept
+
+Server startup flow should be:
+
+(1) Load env
+(2) Connect DB
+(3) Create app
+(4) Register middleware
+(5) Register routes
+(6) Start server
+
+
+This avoids requests hitting server before DB is ready.
