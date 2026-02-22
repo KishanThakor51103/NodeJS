@@ -19,6 +19,7 @@ const startServer = async () => {
 
 app.get("/", (req,res)=>{
   res.send("API running");
+  console.log('Page loaded');
 });
 
 startServer();
